@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 
-    'allowed_origins' => ['https://boilerplate.rush-app.com', 'http://rush-app.local', 'http://localhost:4200', 'http://localhost:4000'],
+    'allowed_origins' => [env('USER_FRONT_URL'), 'http://localhost:4200', 'http://localhost:4000'],
 
     'allowed_origins_patterns' => [],
 
